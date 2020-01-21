@@ -1,17 +1,21 @@
-const Index = () => (
-  <div>
-    <h1>Our Index Page</h1>
-  </div>
-);
+import Link from 'next/link';
 
+const Index = () => {
+  return (
+    <div>
+      <Link href='/about'>
+        <a>About</a>
+      </Link>
+      <h1>Our Index Page</h1>
+    </div>
+  );
+};
 export default Index;
 
 // equivalent
 
-// const Index = () => {
-//     return (
-//         <div>
-//             <h1>Our Index Page</h1>
-//         </div>
-//     )
-// }
+// const Index = () => (
+//   <div>
+//     <h1>Our Index Page</h1>
+//   </div>
+// );
