@@ -6,7 +6,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navbar />
       <Component {...pageProps} />
-      <h1>FOOTER!!</h1>
     </>
   );
 }
